@@ -12,7 +12,7 @@ This project contains an **Automated Accessibility Testing Framework** using Sel
 - Install **Chrome & ChromeDriver**
 
 ### 🔹 Clone Repository:
-```bash
+
 git clone https://github.com/Rashmi-Bharti/Accessibility-Testing-Automation.git
 cd AccessibilityTesting
 
@@ -29,9 +29,7 @@ cd AccessibilityTesting
 🛠 Easily Configurable via Maven & TestNG
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 Accessibility-Testing-Automation/
 │── 📂 src
 │   ├── 📂 main/
@@ -47,29 +45,32 @@ Accessibility-Testing-Automation/
 ## 🛠 Setup & Installation
 
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/Rashmi-Bharti/Accessibility-Testing-Automation.git
 cd Accessibility-Testing-Automation
-2️⃣ Install Dependencies
-bash
-Copy
-Edit
-mvn clean install
-3️⃣ Run Accessibility Tests
-bash
-Copy
-Edit
-mvn test
 
+2️⃣ Install Dependencies
+mvn clean install
+
+3️⃣ Run Accessibility Tests
+mvn test
 
 ## 📊 Test Reports
 
 📁 Accessibility Violations Logged in:
-
-bash
-Copy
-Edit
 target/surefire-reports/AmazonAccessibilityTest.json
 📑 Detailed HTML Reports:
+target/surefire-reports/emailable-report.html
+
+## 📌 Tech Stack
+🔹 Java ☕
+🔹 Maven 🏗
+🔹 Selenium WebDriver 🌐
+🔹 TestNG 🛠
+🔹 axe-core (Deque's Accessibility Library) 🔍
+
+## 🤝 Contributing
+🚀 Want to improve this project? Here's how you can contribute:
+
+🔥 Fork this repository
+🛠 Enhance test cases or add new features
+📩 Submit a Pull Request
