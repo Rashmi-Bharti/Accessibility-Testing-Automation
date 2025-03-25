@@ -17,9 +17,9 @@ public class BrowserTest {
 
     @Test
     public void testPageTitle() {
-        driver.get("https://www.google.com");
+        driver.get("https://www.amazon.in ");
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Google"), "Title does not match expected.");
+        Assert.assertTrue(title.contains("Amazon"), "Title does not match expected.");
     }
 
     @AfterMethod
