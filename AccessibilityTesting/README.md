@@ -1,11 +1,19 @@
-# Accessibility Testing Automation
+# Accessibility Testing Automation 🚀
 
-This project contains an **Automated Accessibility Testing Framework** using Selenium and TestNG.
+Automated accessibility testing framework using Selenium, axe-core, and TestNG.
 
 ## 📌 Features
-- Supports **Chrome, Firefox, Edge**.
-- Uses **TestNG** for test execution.
-- Ensures **WCAG compliance** testing.
+- ✅ Automates accessibility tests using axe-core
+- ✅ Runs tests on Chrome (headless mode supported)
+- ✅ Generates detailed accessibility violation reports
 
-## 🚀 How to Run
-1. Clone the repository:
+## 🛠️ Setup Instructions
+### 🔹 Prerequisites:
+- Install **Java 8+**
+- Install **Maven**
+- Install **Chrome & ChromeDriver**
+
+### 🔹 Clone Repository:
+```bash
+git clone https://github.com/Rashmi-Bharti/Accessibility-Testing-Automation.git
+cd AccessibilityTesting
