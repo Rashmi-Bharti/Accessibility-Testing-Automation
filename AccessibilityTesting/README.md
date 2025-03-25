@@ -1,4 +1,23 @@
-**🏆 Accessibility Testing Automation 🚀**
+This project contains an **Automated Accessibility Testing Framework** using Selenium and TestNG.
+
+## 📌 Features
+- ✅ Automates accessibility tests using axe-core
+- ✅ Runs tests on Chrome (headless mode supported)
+- ✅ Generates detailed accessibility violation reports
+
+## 🛠️ Setup Instructions
+### 🔹 Prerequisites:
+- Install **Java 8+**
+- Install **Maven**
+- Install **Chrome & ChromeDriver**
+
+### 🔹 Clone Repository:
+```bash
+git clone https://github.com/Rashmi-Bharti/Accessibility-Testing-Automation.git
+cd AccessibilityTesting
+
+
+## 🏆 Accessibility Testing Automation 🚀
 🔍 Automate Accessibility Testing using Selenium, TestNG, and axe-core to identify WCAG violations and improve web usability.
 
 
@@ -25,7 +44,7 @@ Accessibility-Testing-Automation/
 │── 📜 README.md                         # Project Documentation
 
 
-**🛠 Setup & Installation**
+## 🛠 Setup & Installation
 
 1️⃣ Clone the Repository
 bash
@@ -45,7 +64,7 @@ Edit
 mvn test
 
 
-**📊 Test Reports**
+## 📊 Test Reports
 
 📁 Accessibility Violations Logged in:
 
@@ -54,21 +73,3 @@ Copy
 Edit
 target/surefire-reports/AmazonAccessibilityTest.json
 📑 Detailed HTML Reports:
-
-This project contains an **Automated Accessibility Testing Framework** using Selenium and TestNG.
-
-## 📌 Features
-- ✅ Automates accessibility tests using axe-core
-- ✅ Runs tests on Chrome (headless mode supported)
-- ✅ Generates detailed accessibility violation reports
-
-## 🛠️ Setup Instructions
-### 🔹 Prerequisites:
-- Install **Java 8+**
-- Install **Maven**
-- Install **Chrome & ChromeDriver**
-
-### 🔹 Clone Repository:
-```bash
-git clone https://github.com/Rashmi-Bharti/Accessibility-Testing-Automation.git
-cd AccessibilityTesting
